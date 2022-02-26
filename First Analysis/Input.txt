@@ -3,7 +3,7 @@
 #include <stdio.h>
 using namespace std;
 
-int main(){
+int main(){ // Main function
     int num = 0;
     const int limit = 5
     for(int x = num; x < limit; x++){
