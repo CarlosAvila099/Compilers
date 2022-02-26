@@ -1,0 +1,33 @@
+// Test Program for firstanalysis.py
+
+#include <stdio.h>
+using namespace std;
+
+int main(){
+    int num = 0;
+    const int limit = 5
+    for(int x = num; x < limit; x++){
+        char c;
+        switch(x){
+            case 1:
+                c = 'a';
+                break;
+            case 2:
+                c = 'b';
+                break;
+            case 3:
+                c = 'c';
+                break;
+            case 4:
+                c = 'd';
+                break;
+            default:
+                c = 'z';
+                break;
+        }
+        if(c != 'z'){
+            printf("%c", c);
+        }
+    }
+    return 0;
+}
